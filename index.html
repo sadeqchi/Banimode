@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="Fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>بانی مد</title>
+  </head>
+  <body>
+    <svg class="hidden">
+      <symbol
+        id="bucket"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 32 32"
+        width="32"
+        height="32"
+      >
+        <g
+          stroke="#101010"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5px"
+          clip-path="url(#cart_svg__a)"
+          fill="none"
+        >
+          <path
+            d="M26.134 8.623 23.867 5.6a4 4 0 0 0-3.2-1.6h-9.333a4 4 0 0 0-3.2 1.6L5.867 8.623a2.66 2.66 0 0 0-.533 1.6V24a4 4 0 0 0 4 4h13.333a4 4 0 0 0 4-4V10.223c0-.578-.186-1.139-.533-1.6"
+            stroke="#101010"
+            fill="none"
+            stroke-width="1.5px"
+          ></path>
+          <path
+            d="M20 13.333a4 4 0 1 1-8 0M26.512 9.333H5.488"
+            stroke="#101010"
+            fill="none"
+            stroke-width="1.5px"
+          ></path>
+        </g>
+        <defs>
+          <clipPath id="cart_svg__a">
+            <path fill="#fff" d="M0 0h32v32H0z"></path>
+          </clipPath>
+        </defs>
+      </symbol>
+      <symbol
+        id="search"
+        viewBox="0 0 24 24"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        fill="none"
+      >
+        <g
+          stroke="#101010"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5px"
+          clip-path="url(#search_svg__a)"
+          fill="none"
+        >
+          <path
+            d="M15.714 6.838a6.276 6.276 0 1 1-8.876 8.876 6.276 6.276 0 0 1 8.876-8.876M19 19l-3.29-3.29"
+            stroke="#53565A"
+            fill="none"
+            stroke-width="1.5px"
+          ></path>
+        </g>
+        <defs>
+          <clipPath id="search_svg__a">
+            <path fill="#fff" d="M0 0h24v24H0z"></path>
+          </clipPath>
+        </defs>
+      </symbol>
+    </svg>
+    <header>
+      <div class="px-5 pt-4">
+        <img class="rounded-md" src="./image/topbanner.gif" alt="banner-top" />
+      </div>
+      <div class="w-full h-fit flex justify-between items-center p-5">
+        <div class="flex gap-2">
+          <div class="w-fit h-10 p-0.5">
+            <svg class="w-9 h-10 hover:cursor-pointer">
+              <use href="#bucket"></use>
+            </svg>
+          </div>
+          <div class="w-fit h-fit">
+            <button
+              type="button"
+              class="w-30 h-10 bg-green-800 rounded-full text-white transition-all hover:cursor-pointer hover:bg-green-900"
+            >
+              ورود/ثبت نام
+            </button>
+          </div>
+        </div>
+        <div class="w-1/2 flex flex-row-reverse justify-center items-center">
+          <input
+            class="w-full h-10 bg-stone-300 p-2"
+            type="text"
+            placeholder="جستوجو در میان هزاران برند و صدها هزار کالا"
+          />
+          <button
+            class="h-1/2 transition-all hover:bg-green-950 cursor-pointer bg-stone-300"
+            type="button"
+          >
+            <svg class="w-10 h-10 p-2">
+              <use href="#search"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="">
+          <img src="./image/logo-main.svg" alt="" />
+        </div>
+      </div>
+    </header>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

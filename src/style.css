@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "font";
+  src: url(../public/Font/YekanBakhFaNum-Light.ttf);
+}
+* {
+  font-family: "font";
+}
