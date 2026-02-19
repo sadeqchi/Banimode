@@ -1,8 +1,19 @@
 @import "tailwindcss";
 @font-face {
   font-family: "font";
-  src: url(../public/Font/YekanBakhFaNum-Light.ttf);
+  src: url(../Font/YekanBakhFaNum-Light.ttf);
 }
 * {
   font-family: "font";
+}
+@layer components {
+  .swiper {
+    @apply w-full h-full bg-sky-900;
+  }
+  .swiper-slide {
+    @apply flex justify-center items-center text-center;
+  }
+  .swiper-slide img {
+    @apply w-full h-full bg-cover;
+  }
 }
