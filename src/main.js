@@ -2,8 +2,7 @@ for (let i = 1; i <= 10; i++) {
   document.getElementById(`bergurMenu-${i}`).className =
     "w-full p-6 h-10 flex justify-center items-center bg-amber-200 hover:bg-sky-500";
 }
-// ----------------------swiper banner main---------------------------
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiper_1", {
   pagination: {
     el: ".swiper-pagination",
   },
@@ -12,3 +11,7 @@ var swiper = new Swiper(".mySwiper", {
     disableOnInteraction: false,
   },
 });
+var swiper = new Swiper(".mySwiper_2", {
+      slidesPerView: 5,
+      spaceBetween: 30,
+    });
