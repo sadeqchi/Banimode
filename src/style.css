@@ -22,4 +22,7 @@
   .btnOfersWonder {
     @apply w-fit h-fit px-4 py-2 text-sm rounded-full bg-white transition-all hover:shadow shadow-2xl hover:bg-green-500 cursor-pointer font-bold;
   }
+  .brandsShowCard {
+    @apply hover:blur-sm hover:cursor-pointer;
+  }
 }
