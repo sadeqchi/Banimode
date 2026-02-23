@@ -15,3 +15,11 @@ var swiper = new Swiper(".mySwiper_2", {
       slidesPerView: 5,
       spaceBetween: 30,
     });
+    var swiper = new Swiper(".mySwiper_3", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
