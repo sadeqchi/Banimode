@@ -12,14 +12,26 @@ var swiper = new Swiper(".mySwiper_1", {
   },
 });
 var swiper = new Swiper(".mySwiper_2", {
-      slidesPerView: 5,
-      spaceBetween: 30,
-    });
-    var swiper = new Swiper(".mySwiper_3", {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
+slidesPerView: 5,
+spaceBetween: 30,
+});
+var swiper = new Swiper(".mySwiper_3", {
+slidesPerView: 1,
+spaceBetween: 10,
+autoplay: {
+delay: 2500,
+disableOnInteraction: false,
+},
+});
+var swiper = new Swiper(".mySwiper_4", {
+slidesPerView: 5,
+spaceBetween: 30,
+});
+var swiper = new Swiper(".mySwiper_5", {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
       },
     });
