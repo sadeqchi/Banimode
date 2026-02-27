@@ -1,0 +1,72 @@
+{
+    "swiperWonder" : [
+            {
+                  "id":1,
+                  "image" : "../image/wonderAPI_1.png",
+                  "title" : "بلوز بافت زنانه نارين مد كد 91391",
+                  "offer" :"3,895,000",
+                  "price": "1,363,590"
+            },
+            {
+                  "id":2,
+                  "image" : "../image/wonderAPI_2.png",
+                  "title" : "پلیور مردانه آروما مدل 1122101",
+                  "offer" :"6,950,000",
+                  "price": "2,571,500"
+            },
+            {
+                  "id":3,
+                  "image" : "../image/wonderAPI_3.png",
+                  "title" : "نيم بوت چرم طبيعي زنانه منط مدل z307",
+                  "offer" :"23,498,000",
+                  "price": "8,224,299"
+            },
+            {
+                  "id":4,
+                  "image" : "../image/wonderAPI_4.png",
+                  "title" : "پلیور دخترانه مندوست کد 122410",
+                  "offer" :"1,495,000",
+                  "price": "598,000"
+            },
+            {
+                  "id":5,
+                  "image" : "../image/wonderAPI_5.png",
+                  "title" : "سویشرت مردانه لیوایرن Lioiren کد 1010020",
+                  "offer" :"4,821,000",
+                  "price": "2,410,500"
+            },
+            {
+                  "id":6,
+                  "image" : "../image/wonderAPI_6.png",
+                  "title" : "سویشرت مردانه آروما مدل 1128600",
+                  "offer" :"7,850,000",
+                  "price": "2,826,000"
+            },
+            {
+                  "id":7,
+                  "image" : "../image/wonderAPI_7.png",
+                  "title" : "نيم بوت مردانه چرم طبيعي لرد مدل 6018",
+                  "offer" :"14,148,000",
+                  "price": "8,488,800"
+            },
+            {
+                  "id":8,
+                  "image" : "../image/wonderAPI_8.png",
+                  "title" : "سویشرت لیلاژ کد 1003F",
+                  "offer" :"1,749,000",
+                  "price": "787,049"
+            },
+            {
+                  "id":9,
+                  "image" : "../image/wonderAPI_9.png",
+                  "title" : "سویشرت و شلوار نخ پنبه پسرانه مندوست مدل 10791",
+                  "offer" :"3,995,000",
+                  "price": "1,598,000"
+            }
+        ]
+        
+} 
+        
+   
+
+
