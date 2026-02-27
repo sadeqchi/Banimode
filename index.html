@@ -516,6 +516,23 @@
           </clipPath>
         </defs>
       </symbol>
+      <symbol
+        id="messageico"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="28"
+        height="28"
+        fill="white"
+      >
+        <path
+          d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"
+          fill="#FFFFFF"
+        ></path>
+        <circle cx="12" cy="11" r="1" fill="#FFFFFF"></circle>
+        <circle cx="8" cy="11" r="1" fill="#FFFFFF"></circle>
+        <circle cx="16" cy="11" r="1" fill="#FFFFFF"></circle>
+      </symbol>
     </svg>
     <header>
       <div class="px-5 pt-4">
@@ -1199,16 +1216,21 @@
         </p>
         <div class="flex justify-center items-center mt-5">
           <img class="w-20" src="./image/enamd.png" alt="" />
-          <img
-            class="w-20"
-            src="./image/universalitehranlogo.png"
-            alt=""
-          />
+          <img class="w-20" src="./image/universalitehranlogo.png" alt="" />
           <img class="w-20" src="./image/mojavez.png" alt="" />
         </div>
         <p class="text-sm justify-self-center text-stone-500 mt-9">
           کلیه حقوق این وب سایت متعلق به بانی مد است.
         </p>
+      </div>
+      <div class="flex justify-start fixed bottom-5 right-5 z-10">
+        <button
+          class="w-15 h-15 rounded-full flex justify-center items-center bg-green-600 p-2 transition-all hover:shadow-2xl hover:border-3 hover:bg-green-800 cursor-help"
+        >
+          <svg class="w-7 h-7 flex justify-center items-center">
+            <use href="#messageico"></use>
+          </svg>
+        </button>
       </div>
     </footer>
     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
